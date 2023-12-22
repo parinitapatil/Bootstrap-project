@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to-right,#a517ba,#5f1781);
+}
+.newsletter{
+    background-color: rgb(255, 13, 114);
+    color: white;
+}
+.newsletter .btn{
+    background-color: black;
+    color: white;
+}
+@media(min-width:768px){
+    .new-input{
+        width: 30%;
+    }
+}
